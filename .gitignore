@@ -1,0 +1,55 @@
+/target
+# ===============================
+# Rust
+# ===============================
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# If this is a binary/application project,
+# you SHOULD commit Cargo.lock
+# If this is a library, you may ignore it.
+# (For backend app like yours, you can KEEP Cargo.lock)
+
+# ===============================
+# Environment files
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.code-workspace
+
+# ===============================
+# Build files
+# ===============================
+dist/
+build/
+
+# ===============================
+# Database files (if local)
+# ===============================
+*.sqlite
+*.db
+
+# ===============================
+# Temporary files
+# ===============================
+*.tmp
+*.swp
